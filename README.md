@@ -26,13 +26,13 @@
 
 2. Jangan lupa, untuk mendeklarasikan sebuah class didalam OOP kita harus gunakan def__init__ dan juga self.
 
-      class mahasiswa:
-          def __init__(self, nim, nama, tugas, uts, uas):
-              self.nim = nim
-              self.nama = nama
-              self.tugas = tugas
-              self.uts = uts
-              self.uas = uas
+            class mahasiswa:
+                def __init__(self, nim, nama, tugas, uts, uas):
+                    self.nim = nim
+                    self.nama = nama
+                    self.tugas = tugas
+                    self.uts = uts
+                    self.uas = uas
           
 3. Seperti biasa, deklarasikan satu dictionary kosong sebagai tempat menyimpan data-data yang sudah kita input. Ada 5 list kosong yang nanti isinya yaitu NIM, Nama, nilai tugas, nilai UTS dan nilai UAS.
 
@@ -84,18 +84,20 @@ Ini tampilan jika kita menjalankan method Ubah() :
 
 7. Selanjutnya, kita buat method hapus(). Gunanya adalah menghapus data berdasarkan nama. Kita bisa menggunakan del untuk menghapus datanya. Seperti tadi, nomor index list yang akan dihapus disesuaikan dengan inputan dari user. Yaitu index nomor ke - (no).
 
-      def hapus(self):
-              del self.nim[no]
-              del self.nama[no]
-              del self.tugas[no]
-              del self.uts[no]
-              del self.uas[no]
+            def hapus(self):
+                    del self.nim[no]
+                    del self.nama[no]
+                    del self.tugas[no]
+                    del self.uts[no]
+                    del self.uas[no]
 
 Ini tampilan jika kita menjalankan method Hapus() :
 
 ![Screenshot (224)](https://user-images.githubusercontent.com/115516632/206841063-3f9400dc-0c40-4546-9f52-85ed3822a945.png)
 
 8. Terakhir, kita buat method keluar(). Gunanya adalah untuk keluar dari program yang telah kita jalankan sebelumnya.
+
+Ini tampilan jika kita menjalankan method Keluar()
 
 ![Screenshot (225)](https://user-images.githubusercontent.com/115516632/206841453-c77fce96-e16f-475b-b8d6-10d4adba155a.png)
 
